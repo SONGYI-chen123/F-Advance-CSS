@@ -18,3 +18,18 @@ ul {
   margin: 0;
   padding: 0;
 }
+
+header {
+  background-color: black;
+  color: white;
+  font-size: 20px;
+}
+
+.navigation {
+  display: flex;
+  padding: 20px 72px;
+}
+
+.navigation li {
+  margin-right: 72px;
+}
