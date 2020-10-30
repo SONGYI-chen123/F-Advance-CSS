@@ -94,3 +94,17 @@ img {
   border: none;
   background-color: rgb(78, 178, 245);
 }
+
+footer {
+  text-align: center;
+  background-color: #e7e3e3;
+  padding: 5px;
+}
+
+.footer-p {
+  color: #929090;
+}
+
+#footer-a {
+  color: blue;
+}
