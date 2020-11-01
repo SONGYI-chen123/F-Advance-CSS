@@ -33,12 +33,13 @@ img {
 
 .navigation {
   display: flex;
-  justify-content: space-evenly;
-  padding: 15px;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .content {
   display: flex;
+  justify-content: space-around;
 }
 
 .content-left {
@@ -50,7 +51,7 @@ img {
 
 .content-about {
   background-color: #faf4f4;
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
 }
 
 .content-about h2 {
@@ -58,7 +59,11 @@ img {
 }
 
 .content-archives {
-  padding: 20px 20px 20px 20px;
+  padding: 20px;
+}
+
+.content-archives h2 {
+  font-style: oblique;
 }
 
 .content-article {
@@ -96,6 +101,7 @@ img {
 }
 
 footer {
+  margin-top: 20px;
   text-align: center;
   background-color: #e7e3e3;
   padding: 5px;
